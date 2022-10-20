@@ -1,6 +1,6 @@
 # starter-ext
 
-[![Github Actions Status](https://github.com/github_username/starter-ext/workflows/Build/badge.svg)](https://github.com/github_username/starter-ext/actions/workflows/build.yml)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/github_username/starter-ext/main?urlpath=lab)
+[![Github Actions Status](https://github.com/EugeniaYang/starter-ext/workflows/Build/badge.svg)](https://github.com/EugeniaYang/starter-ext/actions/workflows/build.yml)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/EugeniaYang/starter-ext/main?urlpath=lab)
 The starter extension from tutorial.
 
 ## Requirements
