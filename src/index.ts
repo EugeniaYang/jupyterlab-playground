@@ -33,7 +33,6 @@ interface APODResponse {
     widget.id = 'apod-jupyterlab';
     widget.title.label = 'Astronomy Picture';
     widget.title.closable = true;
-
     // Add an image element to the content
     let img = document.createElement('img');
     content.node.appendChild(img);
@@ -48,7 +47,7 @@ interface APODResponse {
 
     // Fetch info about a random picture
     const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=${randomDate()}`);
-    const data = await response.json() as APODResponse;
+    const data = (await response.json()) as APODResponse;
 
     if (data.media_type === 'image') {
       // Populate the image
